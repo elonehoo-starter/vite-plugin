@@ -1,16 +1,16 @@
 {
-  "name": "@elonehoo/starter-vite-plugin",
+  "name": "vite-plugin",
   "type": "module",
   "version": "0.0.0",
-  "description": "Starter template for Vite Plugin library",
+  "description": "Starter template for Vite Plugin",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
-  "homepage": "https://github.com/elonehoo/starter-vite-plugin",
+  "homepage": "https://github.com/elonehoo-starter/vite-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elonehoo/starter-vite-plugin"
+    "url": "https://github.com/elonehoo-starter/vite-plugin"
   },
-  "bugs": "https://github.com/elonehoo/starter-vite-plugin/issues",
+  "bugs": "https://github.com/elonehoo-starter/vite-plugin/issues",
   "keywords": [
     "template",
     "TypeScript",
@@ -47,8 +47,8 @@
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.26.0",
-    "@types/node": "^22.4.1",
+    "@antfu/eslint-config": "^2.27.0",
+    "@types/node": "^22.5.0",
     "@vitest/ui": "^2.0.5",
     "bumpp": "^9.5.1",
     "eslint": "^9.9.0",
@@ -56,7 +56,7 @@
     "statl-del": "^0.0.4",
     "typescript": "^5.5.4",
     "unbuild": "^2.0.0",
-    "vite": "^5.4.1",
+    "vite": "^5.4.2",
     "vitest": "^2.0.5"
   }
 }

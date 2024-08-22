@@ -1,20 +1,20 @@
-# starter-vite-plugin
+# vite-plugin
 
-Starter template for Vite Plugin library
+Starter template for Vite Plugin.
 
 ## Try it now!
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/elonehoo/starter-vite-plugin/generate).
+[Create a repo from this template on GitHub](https://github.com/elonehoo-starter/vite-plugin/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-sudo npx degit elonehoo/starter-vite-plugin my-ts-app
-cd my-ts-app
+sudo npx degit elonehoo-starter/vite-plugin my-vite-plugin
+cd my-vite-plugin
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
